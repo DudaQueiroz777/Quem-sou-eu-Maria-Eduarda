@@ -1,0 +1,320 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maria Eduarda — Portfólio</title>
+  <meta name="description" content="Portfólio de Maria Eduarda, estudante criativa transformando ideias em experiências digitais." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header id="navbar" class="navbar">
+    <nav class="nav-container">
+      <a href="#hero" class="nav-logo" id="nav-logo">ME<span class="logo-dot">.</span></a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#sobre" class="nav-link" id="nav-sobre">Sobre</a></li>
+        <li><a href="#projetos" class="nav-link" id="nav-projetos">Projetos</a></li>
+        <li><a href="#contato" class="nav-link" id="nav-contato">Contato</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button id="theme-toggle" class="theme-toggle" aria-label="Alternar modo claro/escuro">
+          <span class="theme-icon theme-icon--dark">🌙</span>
+          <span class="theme-icon theme-icon--light">☀️</span>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Abrir menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+    <div class="mobile-menu" id="mobile-menu">
+      <ul>
+        <li><a href="#sobre" class="mobile-link" id="mob-sobre">Sobre</a></li>
+        <li><a href="#projetos" class="mobile-link" id="mob-projetos">Projetos</a></li>
+        <li><a href="#contato" class="mobile-link" id="mob-contato">Contato</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <section id="hero" class="hero">
+    <div class="hero-bg-orb orb-1"></div>
+    <div class="hero-bg-orb orb-2"></div>
+    <div class="hero-content">
+      <p class="hero-badge reveal">✦ Disponível para projetos</p>
+      <h1 class="hero-title reveal">
+        <span class="hero-title-line">Maria</span>
+        <span class="hero-title-line hero-title-accent">Eduarda</span>
+      </h1>
+      <p class="hero-role reveal">Estudante &amp; Criativa Digital</p>
+      <p class="hero-phrase reveal">Transformando ideias em experiências digitais criativas.</p>
+      <div class="hero-cta reveal">
+        <a href="#projetos" class="btn btn-primary" id="hero-cta-projetos">Ver Projetos</a>
+        <a href="#contato" class="btn btn-ghost" id="hero-cta-contato">Falar comigo</a>
+      </div>
+    </div>
+    <div class="hero-visual reveal">
+      <div class="avatar-wrapper">
+        <img src="avatar.jpg" alt="Maria Eduarda" class="avatar-img" id="hero-avatar" />
+        <div class="avatar-ring"></div>
+        <div class="avatar-glow"></div>
+        <div class="floating-tag tag-1">UI/UX</div>
+        <div class="floating-tag tag-2">Design</div>
+        <div class="floating-tag tag-3">Web</div>
+      </div>
+    </div>
+    <div class="scroll-indicator" id="scroll-indicator">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <section id="sobre" class="sobre section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">01 — Sobre</span>
+        <h2 class="section-title">Quem sou eu?</h2>
+      </div>
+      <div class="sobre-grid">
+        <div class="sobre-text reveal">
+          <p class="sobre-lead">Olá! Sou a <strong>Maria Eduarda</strong>, estudante apaixonada por tecnologia e design.</p>
+          <p>Acredito que a melhor forma de aprender é criando. Cada projeto é uma nova aventura onde combino estética e funcionalidade para construir experiências que as pessoas realmente amam usar.</p>
+          <p>Estou sempre explorando novas ferramentas, tendências de design e formas de tornar a web mais bonita e acessível.</p>
+          <div class="skills-grid">
+            <div class="skill-chip" id="skill-figma">Figma</div>
+            <div class="skill-chip" id="skill-html">HTML &amp; CSS</div>
+            <div class="skill-chip" id="skill-js">JavaScript</div>
+            <div class="skill-chip" id="skill-react">React</div>
+            <div class="skill-chip" id="skill-ux">UX Design</div>
+            <div class="skill-chip" id="skill-branding">Branding</div>
+          </div>
+        </div>
+        <div class="sobre-stats reveal">
+          <div class="stat-card" id="stat-projetos">
+            <span class="stat-number">12+</span>
+            <span class="stat-label">Projetos Criados</span>
+          </div>
+          <div class="stat-card" id="stat-tools">
+            <span class="stat-number">8+</span>
+            <span class="stat-label">Ferramentas Dominadas</span>
+          </div>
+          <div class="stat-card" id="stat-cafe">
+            <span class="stat-number">∞</span>
+            <span class="stat-label">Cafés Tomados</span>
+          </div>
+          <div class="stat-card highlight" id="stat-disponivel">
+            <span class="stat-number">✓</span>
+            <span class="stat-label">Aberta a Oportunidades</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projetos" class="projetos section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">02 — Projetos</span>
+        <h2 class="section-title">Meu trabalho</h2>
+      </div>
+      <div class="projetos-grid">
+
+        <!-- Projeto 1: Activesoft -->
+        <article class="projeto-card projeto-card--wide reveal" id="projeto-1">
+          <div class="projeto-img-wrap">
+            <div class="projeto-img-placeholder p1">
+              <div class="p-mockup p-mockup--dashboard">
+                <div class="pm-dash-sidebar"></div>
+                <div class="pm-dash-main">
+                  <div class="pm-dash-card"></div>
+                  <div class="pm-dash-card"></div>
+                  <div class="pm-dash-card pm-dash-card--wide"></div>
+                </div>
+              </div>
+              <span class="proj-label">React + Vite</span>
+            </div>
+            <div class="projeto-overlay">
+              <a href="https://activesoft-gugu.vercel.app" target="_blank" rel="noopener" class="overlay-btn" id="link-proj-1">Ver ao Vivo ↗</a>
+            </div>
+          </div>
+          <div class="projeto-info">
+            <div class="projeto-tags">
+              <span class="ptag">React</span>
+              <span class="ptag">Vite</span>
+              <span class="ptag">Vercel</span>
+            </div>
+            <h3 class="projeto-title">Activesoft — Plataforma Web</h3>
+            <p class="projeto-desc">Aplicação web completa desenvolvida com React e Vite. Projeto publicado em produção com deploy automático na Vercel.</p>
+            <a href="https://github.com/DudaQueiroz777/Activesoft-gugu" target="_blank" rel="noopener" class="projeto-github" id="github-proj-1">
+              <span>Ver no GitHub</span> →
+            </a>
+          </div>
+        </article>
+
+        <!-- Projeto 2: manosevira -->
+        <article class="projeto-card reveal" id="projeto-2">
+          <div class="projeto-img-wrap">
+            <div class="projeto-img-placeholder p2">
+              <div class="p-mockup">
+                <div class="pm-hero-text">MANO<br/>SEVIRA</div>
+                <div class="pm-nav">
+                  <div class="pm-dot"></div>
+                  <div class="pm-dot"></div>
+                  <div class="pm-dot"></div>
+                </div>
+              </div>
+              <span class="proj-label">Web</span>
+            </div>
+            <div class="projeto-overlay">
+              <a href="https://github.com/DudaQueiroz777/manosevira" target="_blank" rel="noopener" class="overlay-btn" id="link-proj-2">Ver Projeto ↗</a>
+            </div>
+          </div>
+          <div class="projeto-info">
+            <div class="projeto-tags">
+              <span class="ptag">HTML</span>
+              <span class="ptag">CSS</span>
+              <span class="ptag">JavaScript</span>
+            </div>
+            <h3 class="projeto-title">Mano Sevira</h3>
+            <p class="projeto-desc">Projeto web criativo com foco em experiência do usuário e design bem executado do zero.</p>
+            <a href="https://github.com/DudaQueiroz777/manosevira" target="_blank" rel="noopener" class="projeto-github" id="github-proj-2">
+              <span>Ver no GitHub</span> →
+            </a>
+          </div>
+        </article>
+
+        <!-- Projeto 3: RPG-personagens -->
+        <article class="projeto-card reveal" id="projeto-3">
+          <div class="projeto-img-wrap">
+            <div class="projeto-img-placeholder p3">
+              <div class="p-mockup">
+                <div class="pm-logo-demo">
+                  <div class="pm-logo-shape"></div>
+                  <div class="pm-logo-text">RPG</div>
+                </div>
+              </div>
+              <span class="proj-label">Game Dev</span>
+            </div>
+            <div class="projeto-overlay">
+              <a href="https://github.com/DudaQueiroz777/RPG-personagens" target="_blank" rel="noopener" class="overlay-btn" id="link-proj-3">Ver Projeto ↗</a>
+            </div>
+          </div>
+          <div class="projeto-info">
+            <div class="projeto-tags">
+              <span class="ptag">RPG</span>
+              <span class="ptag">Personagens</span>
+              <span class="ptag">JavaScript</span>
+            </div>
+            <h3 class="projeto-title">RPG Personagens</h3>
+            <p class="projeto-desc">Sistema de criação e gerenciamento de personagens para RPG. Lógica de atributos, classes e fichas de personagem.</p>
+            <a href="https://github.com/DudaQueiroz777/RPG-personagens" target="_blank" rel="noopener" class="projeto-github" id="github-proj-3">
+              <span>Ver no GitHub</span> →
+            </a>
+          </div>
+        </article>
+
+        <!-- Projeto 4: enva -->
+        <article class="projeto-card reveal" id="projeto-4">
+          <div class="projeto-img-wrap">
+            <div class="projeto-img-placeholder p4">
+              <div class="p-mockup">
+                <div class="pm-bar"></div>
+                <div class="pm-bar pm-bar--short"></div>
+                <div class="pm-circles">
+                  <div class="pm-circle"></div>
+                  <div class="pm-circle pm-circle--sm"></div>
+                </div>
+              </div>
+              <span class="proj-label">Web App</span>
+            </div>
+            <div class="projeto-overlay">
+              <a href="https://github.com/DudaQueiroz777/enva" target="_blank" rel="noopener" class="overlay-btn" id="link-proj-4">Ver Projeto ↗</a>
+            </div>
+          </div>
+          <div class="projeto-info">
+            <div class="projeto-tags">
+              <span class="ptag">HTML</span>
+              <span class="ptag">CSS</span>
+              <span class="ptag">JavaScript</span>
+            </div>
+            <h3 class="projeto-title">Enva</h3>
+            <p class="projeto-desc">Aplicação web desenvolvida do zero com foco em funcionalidade e interface limpa e intuitiva.</p>
+            <a href="https://github.com/DudaQueiroz777/enva" target="_blank" rel="noopener" class="projeto-github" id="github-proj-4">
+              <span>Ver no GitHub</span> →
+            </a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="contato" class="contato section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">03 — Contato</span>
+        <h2 class="section-title">Vamos conversar?</h2>
+      </div>
+      <div class="contato-grid">
+        <div class="contato-info reveal">
+          <p class="contato-lead">Tem uma ideia incrível? Quer colaborar em um projeto? Me manda uma mensagem — adoro conhecer pessoas criativas!</p>
+          <div class="contato-links">
+            <a href="mailto:30131@raphaeldisanto.com.br" class="contato-link" id="link-email">
+              <span class="cl-icon">✉</span>
+              <span>30131@raphaeldisanto.com.br</span>
+            </a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener" class="contato-link" id="link-linkedin">
+              <span class="cl-icon">in</span>
+              <span>LinkedIn</span>
+            </a>
+            <a href="https://github.com" target="_blank" rel="noopener" class="contato-link" id="link-github">
+              <span class="cl-icon">⌥</span>
+              <span>GitHub</span>
+            </a>
+          </div>
+        </div>
+        <form class="contato-form reveal" id="contato-form" novalidate>
+          <div class="form-group">
+            <label for="form-nome" class="form-label">Nome</label>
+            <input type="text" id="form-nome" name="nome" class="form-input" placeholder="Seu nome completo" required />
+            <span class="form-error" id="err-nome"></span>
+          </div>
+          <div class="form-group">
+            <label for="form-email" class="form-label">E-mail</label>
+            <input type="email" id="form-email" name="email" class="form-input" placeholder="seu@email.com" required />
+            <span class="form-error" id="err-email"></span>
+          </div>
+          <div class="form-group">
+            <label for="form-assunto" class="form-label">Assunto</label>
+            <input type="text" id="form-assunto" name="assunto" class="form-input" placeholder="Sobre o que quer falar?" />
+          </div>
+          <div class="form-group">
+            <label for="form-mensagem" class="form-label">Mensagem</label>
+            <textarea id="form-mensagem" name="mensagem" class="form-input form-textarea" placeholder="Conta tudo..." required rows="5"></textarea>
+            <span class="form-error" id="err-mensagem"></span>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full" id="form-submit">
+            <span class="btn-text">Enviar Mensagem</span>
+            <span class="btn-icon">→</span>
+          </button>
+          <div class="form-success" id="form-success" role="alert" aria-live="polite">
+            ✓ Mensagem enviada com sucesso! Retorno em breve.
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p class="footer-copy">© 2025 Maria Eduarda. Feito com ♥ e muito café.</p>
+      <a href="#hero" class="footer-top" id="footer-top">↑ Topo</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
